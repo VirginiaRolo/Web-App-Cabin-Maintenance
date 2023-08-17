@@ -1,0 +1,60 @@
+﻿@model IEnumerable<Hotel.Web.Models.MantenimientoModel>
+
+@{
+    ViewData["Title"] = "GetByIdCabania";
+}
+
+<h1>Ver todos los mantenimientos de una cabaña</h1>
+
+@*<p>
+    <a asp-action="Create">Create New</a>
+</p>*@
+@if (Model != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Nombre de la Cabaña
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Fecha)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Descripcion)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Costo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NombreFuncionario)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Cabania.Nombre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Fecha)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Descripcion.Valor)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Costo.Valor)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NombreFuncionario)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+<span>@ViewBag.Message</span>
+

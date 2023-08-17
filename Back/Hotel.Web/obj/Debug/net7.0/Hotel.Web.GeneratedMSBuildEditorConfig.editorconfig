@@ -1,0 +1,117 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Hotel.Web
+build_property.RootNamespace = Hotel.Web
+build_property.ProjectDir = F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Back\Hotel.Web\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Back\Hotel.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[F:/Documents/Documentos/Proyectos Visual Studio/Obligatorio02_P3/Back/Hotel.Web/Views/Cabania/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FiYW5pYVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Documents/Documentos/Proyectos Visual Studio/Obligatorio02_P3/Back/Hotel.Web/Views/Cabania/GetByCantMaxPersonas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FiYW5pYVxHZXRCeUNhbnRNYXhQZXJzb25hcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Documents/Documentos/Proyectos Visual Studio/Obligatorio02_P3/Back/Hotel.Web/Views/Cabania/GetByHabilitada.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FiYW5pYVxHZXRCeUhhYmlsaXRhZGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Documents/Documentos/Proyectos Visual Studio/Obligatorio02_P3/Back/Hotel.Web/Views/Cabania/GetByNombre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FiYW5pYVxHZXRCeU5vbWJyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Documents/Documentos/Proyectos Visual Studio/Obligatorio02_P3/Back/Hotel.Web/Views/Cabania/GetByTipo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FiYW5pYVxHZXRCeVRpcG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Documents/Documentos/Proyectos Visual Studio/Obligatorio02_P3/Back/Hotel.Web/Views/Cabania/HomeCabania.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FiYW5pYVxIb21lQ2FiYW5pYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Documents/Documentos/Proyectos Visual Studio/Obligatorio02_P3/Back/Hotel.Web/Views/Cabania/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FiYW5pYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Documents/Documentos/Proyectos Visual Studio/Obligatorio02_P3/Back/Hotel.Web/Views/Home/AccesoDenegado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBY2Nlc29EZW5lZ2Fkby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Documents/Documentos/Proyectos Visual Studio/Obligatorio02_P3/Back/Hotel.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Documents/Documentos/Proyectos Visual Studio/Obligatorio02_P3/Back/Hotel.Web/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Documents/Documentos/Proyectos Visual Studio/Obligatorio02_P3/Back/Hotel.Web/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Documents/Documentos/Proyectos Visual Studio/Obligatorio02_P3/Back/Hotel.Web/Views/Mantenimiento/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudGVuaW1pZW50b1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Documents/Documentos/Proyectos Visual Studio/Obligatorio02_P3/Back/Hotel.Web/Views/Mantenimiento/GetByFechas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudGVuaW1pZW50b1xHZXRCeUZlY2hhcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Documents/Documentos/Proyectos Visual Studio/Obligatorio02_P3/Back/Hotel.Web/Views/Mantenimiento/GetByIdCabania.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFudGVuaW1pZW50b1xHZXRCeUlkQ2FiYW5pYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Documents/Documentos/Proyectos Visual Studio/Obligatorio02_P3/Back/Hotel.Web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Documents/Documentos/Proyectos Visual Studio/Obligatorio02_P3/Back/Hotel.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Documents/Documentos/Proyectos Visual Studio/Obligatorio02_P3/Back/Hotel.Web/Views/TipoCabania/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0NhYmFuaWFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Documents/Documentos/Proyectos Visual Studio/Obligatorio02_P3/Back/Hotel.Web/Views/TipoCabania/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0NhYmFuaWFcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Documents/Documentos/Proyectos Visual Studio/Obligatorio02_P3/Back/Hotel.Web/Views/TipoCabania/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0NhYmFuaWFcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Documents/Documentos/Proyectos Visual Studio/Obligatorio02_P3/Back/Hotel.Web/Views/TipoCabania/GetByNombre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0NhYmFuaWFcR2V0QnlOb21icmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Documents/Documentos/Proyectos Visual Studio/Obligatorio02_P3/Back/Hotel.Web/Views/TipoCabania/HomeTipoCabania.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0NhYmFuaWFcSG9tZVRpcG9DYWJhbmlhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Documents/Documentos/Proyectos Visual Studio/Obligatorio02_P3/Back/Hotel.Web/Views/TipoCabania/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0NhYmFuaWFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Documents/Documentos/Proyectos Visual Studio/Obligatorio02_P3/Back/Hotel.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Documents/Documentos/Proyectos Visual Studio/Obligatorio02_P3/Back/Hotel.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Documents/Documentos/Proyectos Visual Studio/Obligatorio02_P3/Back/Hotel.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-t1x273ueqa

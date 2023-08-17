@@ -1,0 +1,90 @@
+﻿@model IEnumerable<Hotel.Web.Models.CabaniaModel>
+
+@{
+    ViewData["Title"] = "GetByNombre";
+}
+
+<h1>Buscar cabaña por nombre</h1>
+
+<form method="post">
+    <input type="text" name="nombre" placeholder="Ingrese el nombre">
+
+    <input type="submit" value="Buscar" />
+</form>
+
+@if (Model != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Tipo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nombre)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Descripcion)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TieneJacuzzi)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.HabilitadaReservas)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NumeroHabitacion)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CantMaxPersonas)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Foto)
+                </th>
+                <th>
+                    Mantenimientos
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Tipo.Nombre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nombre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Descripcion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TieneJacuzzi)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.HabilitadaReservas)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NumeroHabitacion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CantMaxPersonas)
+                    </td>
+                    <td>
+                        @*@Html.DisplayFor(modelItem => item.Foto)*@
+                        <img width="100%" class="img-thumbnail" src="~/imgs/Cabanias/@item.Foto" />
+                    </td>
+                    <td>
+                        @* <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>*@
+                        @Html.ActionLink("Registrar nuevo", "Create", "Mantenimiento", new { idCabania = item.NumeroHabitacion})
+                        @Html.ActionLink("Ver todos", "GetByIdCabania", "Mantenimiento", new { idCabania = item.NumeroHabitacion})
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+<span>@ViewBag.Message</span>

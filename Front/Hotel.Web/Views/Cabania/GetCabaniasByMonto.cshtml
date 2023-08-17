@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Hotel.Web.Models.CabaniaModel>
+
+@{
+    ViewData["Title"] = "GetCabaniasByMonto";
+}
+
+<h1>Buscar cabañas por un monto</h1>
+
+<form method="post">
+    <input type="text" name="monto" placeholder="Ingrese el monto">
+
+    <input type="submit" value="Buscar" />
+</form>
+
+@if (Model != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nombre)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TieneJacuzzi)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.HabilitadaReservas)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NumeroHabitacion)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CantMaxPersonas)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nombre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TieneJacuzzi)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.HabilitadaReservas)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NumeroHabitacion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CantMaxPersonas)
+                    </td>
+                </tr>
+            }
+        </tbody>
+
+        <div>
+            <a asp-action="HomeCabania">Back to Home Cabania</a>
+        </div>
+    </table>
+}
+<span>@ViewBag.Message</span>

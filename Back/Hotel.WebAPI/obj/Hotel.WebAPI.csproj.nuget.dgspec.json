@@ -1,0 +1,353 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\Hotel.WebAPI\\Hotel.WebAPI.csproj": {}
+  },
+  "projects": {
+    "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\DTOs\\DTOs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\DTOs\\DTOs.csproj",
+        "projectName": "DTOs",
+        "projectPath": "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\DTOs\\DTOs.csproj",
+        "packagesPath": "C:\\Users\\Snowly\\.nuget\\packages\\",
+        "outputPath": "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\DTOs\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Snowly\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\Hotel.LogicaNegocio\\Hotel.LogicaNegocio.csproj": {
+                "projectPath": "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\Hotel.LogicaNegocio\\Hotel.LogicaNegocio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\Hotel.LogicaAccesoDatos\\Hotel.LogicaAccesoDatos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\Hotel.LogicaAccesoDatos\\Hotel.LogicaAccesoDatos.csproj",
+        "projectName": "Hotel.LogicaAccesoDatos",
+        "projectPath": "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\Hotel.LogicaAccesoDatos\\Hotel.LogicaAccesoDatos.csproj",
+        "packagesPath": "C:\\Users\\Snowly\\.nuget\\packages\\",
+        "outputPath": "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\Hotel.LogicaAccesoDatos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Snowly\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\Hotel.LogicaNegocio\\Hotel.LogicaNegocio.csproj": {
+                "projectPath": "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\Hotel.LogicaNegocio\\Hotel.LogicaNegocio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\Hotel.LogicaAplicacion\\Hotel.LogicaAplicacion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\Hotel.LogicaAplicacion\\Hotel.LogicaAplicacion.csproj",
+        "projectName": "Hotel.LogicaAplicacion",
+        "projectPath": "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\Hotel.LogicaAplicacion\\Hotel.LogicaAplicacion.csproj",
+        "packagesPath": "C:\\Users\\Snowly\\.nuget\\packages\\",
+        "outputPath": "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\Hotel.LogicaAplicacion\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Snowly\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\DTOs\\DTOs.csproj": {
+                "projectPath": "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\DTOs\\DTOs.csproj"
+              },
+              "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\Hotel.LogicaAccesoDatos\\Hotel.LogicaAccesoDatos.csproj": {
+                "projectPath": "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\Hotel.LogicaAccesoDatos\\Hotel.LogicaAccesoDatos.csproj"
+              },
+              "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\Hotel.LogicaNegocio\\Hotel.LogicaNegocio.csproj": {
+                "projectPath": "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\Hotel.LogicaNegocio\\Hotel.LogicaNegocio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\Hotel.LogicaNegocio\\Hotel.LogicaNegocio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\Hotel.LogicaNegocio\\Hotel.LogicaNegocio.csproj",
+        "projectName": "Hotel.LogicaNegocio",
+        "projectPath": "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\Hotel.LogicaNegocio\\Hotel.LogicaNegocio.csproj",
+        "packagesPath": "C:\\Users\\Snowly\\.nuget\\packages\\",
+        "outputPath": "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\Hotel.LogicaNegocio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Snowly\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\Hotel.WebAPI\\Hotel.WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\Hotel.WebAPI\\Hotel.WebAPI.csproj",
+        "projectName": "Hotel.WebAPI",
+        "projectPath": "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\Hotel.WebAPI\\Hotel.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\Snowly\\.nuget\\packages\\",
+        "outputPath": "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\Hotel.WebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Snowly\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\DTOs\\DTOs.csproj": {
+                "projectPath": "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\DTOs\\DTOs.csproj"
+              },
+              "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\Hotel.LogicaAccesoDatos\\Hotel.LogicaAccesoDatos.csproj": {
+                "projectPath": "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\Hotel.LogicaAccesoDatos\\Hotel.LogicaAccesoDatos.csproj"
+              },
+              "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\Hotel.LogicaAplicacion\\Hotel.LogicaAplicacion.csproj": {
+                "projectPath": "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\Hotel.LogicaAplicacion\\Hotel.LogicaAplicacion.csproj"
+              },
+              "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\Hotel.LogicaNegocio\\Hotel.LogicaNegocio.csproj": {
+                "projectPath": "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\Hotel.LogicaNegocio\\Hotel.LogicaNegocio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Filters": {
+              "target": "Package",
+              "version": "[7.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

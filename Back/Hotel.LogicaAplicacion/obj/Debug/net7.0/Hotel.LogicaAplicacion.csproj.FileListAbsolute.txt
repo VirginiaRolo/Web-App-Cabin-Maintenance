@@ -1,0 +1,55 @@
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Hotel.LogicaAplicacion\bin\Debug\net7.0\Hotel.LogicaAplicacion.deps.json
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Hotel.LogicaAplicacion\bin\Debug\net7.0\Hotel.LogicaAplicacion.dll
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Hotel.LogicaAplicacion\bin\Debug\net7.0\Hotel.LogicaAplicacion.pdb
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Hotel.LogicaAplicacion\bin\Debug\net7.0\Hotel.AccesoDatos.dll
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Hotel.LogicaAplicacion\bin\Debug\net7.0\Hotel.LogicaNegocio.dll
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Hotel.LogicaAplicacion\bin\Debug\net7.0\Hotel.AccesoDatos.pdb
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Hotel.LogicaAplicacion\bin\Debug\net7.0\Hotel.LogicaNegocio.pdb
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Hotel.LogicaAplicacion\obj\Debug\net7.0\Hotel.LogicaAplicacion.csproj.AssemblyReference.cache
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Hotel.LogicaAplicacion\obj\Debug\net7.0\Hotel.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Hotel.LogicaAplicacion\obj\Debug\net7.0\Hotel.LogicaAplicacion.AssemblyInfoInputs.cache
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Hotel.LogicaAplicacion\obj\Debug\net7.0\Hotel.LogicaAplicacion.AssemblyInfo.cs
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Hotel.LogicaAplicacion\obj\Debug\net7.0\Hotel.LogicaAplicacion.csproj.CoreCompileInputs.cache
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Hotel.LogicaAplicacion\obj\Debug\net7.0\Hotel.LogicaAplicacion.csproj.CopyComplete
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Hotel.LogicaAplicacion\obj\Debug\net7.0\Hotel.LogicaAplicacion.dll
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Hotel.LogicaAplicacion\obj\Debug\net7.0\refint\Hotel.LogicaAplicacion.dll
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Hotel.LogicaAplicacion\obj\Debug\net7.0\Hotel.LogicaAplicacion.pdb
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Hotel.LogicaAplicacion\obj\Debug\net7.0\ref\Hotel.LogicaAplicacion.dll
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\obj\Debug\net7.0\Hotel.LogicaAplicacion.csproj.AssemblyReference.cache
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\obj\Debug\net7.0\Hotel.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\obj\Debug\net7.0\Hotel.LogicaAplicacion.AssemblyInfoInputs.cache
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\obj\Debug\net7.0\Hotel.LogicaAplicacion.AssemblyInfo.cs
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\obj\Debug\net7.0\Hotel.LogicaAplicacion.csproj.CoreCompileInputs.cache
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\bin\Debug\net7.0\Hotel.LogicaAplicacion.deps.json
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\bin\Debug\net7.0\Hotel.LogicaAplicacion.dll
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\bin\Debug\net7.0\Hotel.LogicaAplicacion.pdb
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\bin\Debug\net7.0\DTOs.dll
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\bin\Debug\net7.0\Hotel.LogicaAccesoDatos.dll
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\bin\Debug\net7.0\Hotel.LogicaNegocio.dll
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\bin\Debug\net7.0\DTOs.pdb
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\bin\Debug\net7.0\Hotel.LogicaAccesoDatos.pdb
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\bin\Debug\net7.0\Hotel.LogicaNegocio.pdb
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\obj\Debug\net7.0\Hotel.LogicaAplicacion.csproj.CopyComplete
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\obj\Debug\net7.0\Hotel.LogicaAplicacion.dll
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\obj\Debug\net7.0\refint\Hotel.LogicaAplicacion.dll
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\obj\Debug\net7.0\Hotel.LogicaAplicacion.pdb
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\obj\Debug\net7.0\ref\Hotel.LogicaAplicacion.dll
+C:\Users\black\Downloads\Obligatorio02_P3_190623_2123\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\bin\Debug\net7.0\Hotel.LogicaAplicacion.deps.json
+C:\Users\black\Downloads\Obligatorio02_P3_190623_2123\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\bin\Debug\net7.0\Hotel.LogicaAplicacion.dll
+C:\Users\black\Downloads\Obligatorio02_P3_190623_2123\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\bin\Debug\net7.0\Hotel.LogicaAplicacion.pdb
+C:\Users\black\Downloads\Obligatorio02_P3_190623_2123\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\bin\Debug\net7.0\DTOs.dll
+C:\Users\black\Downloads\Obligatorio02_P3_190623_2123\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\bin\Debug\net7.0\Hotel.LogicaAccesoDatos.dll
+C:\Users\black\Downloads\Obligatorio02_P3_190623_2123\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\bin\Debug\net7.0\Hotel.LogicaNegocio.dll
+C:\Users\black\Downloads\Obligatorio02_P3_190623_2123\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\bin\Debug\net7.0\DTOs.pdb
+C:\Users\black\Downloads\Obligatorio02_P3_190623_2123\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\bin\Debug\net7.0\Hotel.LogicaAccesoDatos.pdb
+C:\Users\black\Downloads\Obligatorio02_P3_190623_2123\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\bin\Debug\net7.0\Hotel.LogicaNegocio.pdb
+C:\Users\black\Downloads\Obligatorio02_P3_190623_2123\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\obj\Debug\net7.0\Hotel.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\black\Downloads\Obligatorio02_P3_190623_2123\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\obj\Debug\net7.0\Hotel.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\black\Downloads\Obligatorio02_P3_190623_2123\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\obj\Debug\net7.0\Hotel.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\black\Downloads\Obligatorio02_P3_190623_2123\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\obj\Debug\net7.0\Hotel.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\black\Downloads\Obligatorio02_P3_190623_2123\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\obj\Debug\net7.0\Hotel.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\black\Downloads\Obligatorio02_P3_190623_2123\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\obj\Debug\net7.0\Hotel.LogicaAplicacion.csproj.CopyComplete
+C:\Users\black\Downloads\Obligatorio02_P3_190623_2123\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\obj\Debug\net7.0\Hotel.LogicaAplicacion.dll
+C:\Users\black\Downloads\Obligatorio02_P3_190623_2123\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\obj\Debug\net7.0\refint\Hotel.LogicaAplicacion.dll
+C:\Users\black\Downloads\Obligatorio02_P3_190623_2123\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\obj\Debug\net7.0\Hotel.LogicaAplicacion.pdb
+C:\Users\black\Downloads\Obligatorio02_P3_190623_2123\Obligatorio02_P3\Back\Hotel.LogicaAplicacion\obj\Debug\net7.0\ref\Hotel.LogicaAplicacion.dll

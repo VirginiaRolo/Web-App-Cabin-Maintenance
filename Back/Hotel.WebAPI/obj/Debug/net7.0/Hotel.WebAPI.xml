@@ -1,0 +1,207 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Hotel.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:Hotel.WebAPI.Controllers.CabaniasController.GetCabanias">
+            <summary>
+            Listado de todas las cabañas
+            </summary>
+            <returns>Retorna listado de todas las cabañas</returns>
+            <response code="200">Retorna el listado de todas las cabañas</response>
+            <response code="400">Solicitud incorrecta</response>
+            <response code="404">El objeto buscado no se encuentra</response>
+            <response code="401">No esta autorizado para ver este contenido</response>
+        </member>
+        <member name="M:Hotel.WebAPI.Controllers.CabaniasController.CreateCabanias(DTOs.CabaniaDto)">
+            <summary>
+            Dar de alta una cabaña
+            </summary>
+            <returns>Retorna la cabaña creada si se da de alta exitosamente</returns>
+            <response code="201">Retorna la cabaña creada</response>
+            <response code="400">Solicitud incorrecta</response>
+            <response code="401">No esta autorizado para ver este contenido</response>
+        </member>
+        <member name="M:Hotel.WebAPI.Controllers.CabaniasController.GetCabaniasByCantidadPersonas(System.Int32)">
+            <summary>
+            Listado de cabañas buscar por cantidad máxima de personas
+            </summary>
+            /// <param name="cantidad">Numero de cantidad de personas</param>
+            <returns>Retorna listado de todas las cabañas que aceptan el parámetro ingresado, o más, como cantidad de personas</returns>
+            <response code="200">Retorna el listado de todas las cabañas por cantidad maxima de personas</response>
+            <response code="400">Solicitud incorrecta</response>
+            <response code="404">El objeto buscado no se encuentra</response>
+            <response code="401">No esta autorizado para ver este contenido</response>
+        </member>
+        <member name="M:Hotel.WebAPI.Controllers.CabaniasController.GetCabaniasHabilitadasReserva">
+            <summary>
+            Listado de cabañas habilitadas para reserva
+            </summary>
+            <returns>Retorna listado de todas las cabañas habilitadas para reservas</returns>
+            <response code="200">Retorna el listado de todas las cabañas habilitadas para reserva</response>
+            <response code="400">Solicitud incorrecta</response>
+            <response code="404">El objeto buscado no se encuentra</response>
+            <response code="401">No esta autorizado para ver este contenido</response>
+        </member>
+        <member name="M:Hotel.WebAPI.Controllers.CabaniasController.GetCabaniasByNombre(System.String)">
+            <summary>
+            Listado de cabañas dado un nombre
+            </summary>
+            <param name="nombre">Texto que contiene el nombre de la cabaña a buscar</param>
+            <returns>Retorna listado de todas las cabañas que contienen en su nombre el parametro ingresado</returns>
+            <response code="200">Retorna el listado de todas las cabañas dado un nombre</response>
+            <response code="400">Solicitud incorrecta</response>
+            <response code="404">El objeto buscado no se encuentra</response>
+            <response code="401">No esta autorizado para ver este contenido</response>
+        </member>
+        <member name="M:Hotel.WebAPI.Controllers.CabaniasController.GetCabaniasByTipoCabania(System.String)">
+            <summary>
+            Listado de cabañas buscar por tipo de cabaña
+            </summary>
+            <param name="tipo">Texto que contiene el tipo de la cabaña a buscar</param>
+            <returns>Retorna listado de todas las cabañas del tipo ingresado por parámetro</returns>
+            <response code="200">Retorna el listado de todas las cabañas dado un tipo</response>
+            <response code="400">Solicitud incorrecta</response>
+            <response code="404">El objeto buscado no se encuentra</response>
+            <response code="401">No esta autorizado para ver este contenido</response>
+        </member>
+        <member name="M:Hotel.WebAPI.Controllers.CabaniasController.GetCabaniasByMonto(System.Double)">
+            <summary>
+            Listado de cabañas con un costo menor al ingresado por parámetros
+            </summary>
+            <param name="monto">Numero que representa el monto por persona por dia</param>
+            <returns>Retorna un listado de cabañas con un costo menor al ingresado por parámetros</returns>
+            <response code="200">Retorna un listado de cabañas con un costo menor al ingresado por parámetros</response>
+            <response code="400">Solicitud incorrecta</response>
+            <response code="404">El objeto buscado no se encuentra</response>
+            <response code="401">No esta autorizado para ver este contenido</response>
+        </member>
+        <member name="M:Hotel.WebAPI.Controllers.CabaniasController.GetUnaCabaniaById(System.Int32)">
+            <summary>
+            Busqueda de una cabaña por Id
+            </summary>
+            <param name="idCabania">Numero que representa el numero de habitación de la cabaña</param>
+            <returns>Retorna la cabaña que coincide con el id ingresado por parámetros</returns>
+            <response code="200">Retorna la cabaña que coincide con el id ingresado por parámetros</response>
+            <response code="400">Solicitud incorrecta</response>
+            <response code="404">El objeto buscado no se encuentra</response>
+            <response code="401">No esta autorizado para ver este contenido</response>
+        </member>
+        <member name="M:Hotel.WebAPI.Controllers.LoginController.Login(DTOs.UsuarioDto)">
+            <summary>
+            Metodo para conseguir Token dado un usuario
+            </summary>
+            <param name="usuarioActual">Credenciales de usuario que desea iniciar sesion</param>
+            <returns>Token generado</returns>
+        </member>
+        <member name="M:Hotel.WebAPI.Controllers.MantenimientosController.GetMantenimientosDeCabania(System.Int32)">
+            <summary>
+            Listado de mantenimientos por Id de cabaña
+            </summary>
+            <param name="idCabania">Texto que contiene el tipo de la cabaña a buscar</param>
+            <returns>Retorna listado de todos los mantenimientos realizados a una cabaña</returns>
+            <response code="200">Retorna el listado de mantenimientos por id de cabaña</response>
+            <response code="400">Solicitud incorrecta</response>
+            <response code="404">El objeto buscado no se encuentra</response>
+            <response code="401">No esta autorizado para ver este contenido</response>
+        </member>
+        <member name="M:Hotel.WebAPI.Controllers.MantenimientosController.CreateMantenimientos(DTOs.MantenimientoDto)">
+            <summary>
+            Dar de alta un mantenimiento
+            </summary>
+            <returns>Retorna el mantenimiento creado si se da de alta exitosamente</returns>
+            <response code="201">Retorna el mantenimiento creada</response>
+            <response code="400">Solicitud incorrecta</response>
+            <response code="401">No esta autorizado para ver este contenido</response>
+        </member>
+        <member name="M:Hotel.WebAPI.Controllers.MantenimientosController.GetMantenimientosByFechas(System.Int32,System.DateTime,System.DateTime)">
+            <summary>
+            Listado de mantenimientos por Id de cabaña entre dos fechas
+            </summary>
+            <param name="idCabania">Texto que contiene el tipo de la cabaña a buscar</param>
+            <param name="fecha1">Fecha desde</param>
+            <param name="fecha2">Fecha hasta</param>
+            <returns>Retorna listado de todos los mantenimientos realizados a una cabaña entre dos fechas ingresadas por parámetro</returns>
+            <response code="200">Retorna listado de todos los mantenimientos realizados a una cabaña entre dos fechas</response>
+            <response code="400">Solicitud incorrecta</response>
+            <response code="404">El objeto buscado no se encuentra</response>
+            <response code="401">No esta autorizado para ver este contenido</response>
+        </member>
+        <member name="M:Hotel.WebAPI.Controllers.MantenimientosController.GetMantenimientosByCabaniaRangoUC(System.Int32,System.Int32)">
+            <summary>
+            Listado de mantenimientos realizados a las cabañas con una capacidad comprendida entre los valores ingresados
+            </summary>
+            <param name="capMin">Numero que representa la capacidad mínima de la cabaña</param>
+            <param name="capMax">Numero que representa la capacidad máxima de la cabaña</param>
+            <returns>Retorna listado de todos los mantenimientos realizados a una cabaña agrupados por nombre de la persona que realizó el mantenimiento y el monto total de los mantenimientos que realizó</returns>
+            <response code="200">Retorna listado de todos los mantenimientos realizados a una cabaña agrupados por nombre de la persona que realizó el mantenimiento y el monto total de los mantenimientos que realizó</response>
+            <response code="400">Solicitud incorrecta</response>
+            <response code="404">El objeto buscado no se encuentra</response>
+            <response code="401">No esta autorizado para ver este contenido</response>
+        </member>
+        <member name="M:Hotel.WebAPI.Controllers.TipoCabaniasController.GetTipoCabanias">
+            <summary>
+            Listado de todos los tipos de cabañas
+            </summary>
+            <returns>Retorna listado de todos los tipos de cabañas</returns>
+            /// <response code="200">Retorna el listado de todos los tipos de cabañas</response>
+            <response code="400">Solicitud incorrecta</response>
+            <response code="404">El objeto buscado no se encuentra</response>
+            <response code="401">No esta autorizado para ver este contenido</response>
+        </member>
+        <member name="M:Hotel.WebAPI.Controllers.TipoCabaniasController.CreateTipoCabanias(DTOs.TipoCabaniaDto)">
+            <summary>
+            Dar de alta un tipo de cabaña
+            </summary>
+            <returns>Retorna el tipo de cabaña creado si se da de alta exitosamente</returns>
+            <response code="201">Retorna el tipo de cabaña creada</response>
+            <response code="400">Solicitud incorrecta</response>
+            <response code="401">No esta autorizado para ver este contenido</response>
+        </member>
+        <member name="M:Hotel.WebAPI.Controllers.TipoCabaniasController.EditTipoCabanias(DTOs.TipoCabaniaEditDto,System.String)">
+            <summary>
+            Editar un tipo de cabaña
+            </summary>
+            <returns>Retorna el tipo de cabaña editado</returns>
+            <response code="200">Retorna el tipo de cabaña editado</response>
+            <response code="400">Solicitud incorrecta</response>
+            <response code="404">El objeto buscado no se encuentra</response>
+            <response code="401">No esta autorizado para ver este contenido</response>
+            <returns>Retorna el listado de todos los tipos de cabañas al editarse exitosamente un tipo de cabaña</returns>
+        </member>
+        <member name="M:Hotel.WebAPI.Controllers.TipoCabaniasController.GetTipoCabaniasByNombre(System.String)">
+            <summary>
+            Listado de los tipos de cabañas dado un nombre
+            </summary>
+            <param name="nombre">Texto que contiene el nombre del tipo de la cabaña a buscar</param>
+            <returns>Retorna listado de todos los tipos de cabañas que contienen en su nombre el parametro ingresado</returns>
+            <response code="200">Retorna el listado de todos los tipos de cabañas dado un nombre</response>
+            <response code="400">Solicitud incorrecta</response>
+            <response code="404">El objeto buscado no se encuentra</response>
+            <response code="401">No esta autorizado para ver este contenido</response>
+        </member>
+        <member name="M:Hotel.WebAPI.Controllers.TipoCabaniasController.GetUnTipoCabaniasByNombre(System.String)">
+            <summary>
+            Un tipo de cabaña dado un nombre
+            </summary>
+            <param name="nombre">Texto que contiene el nombre del tipo de la cabaña a buscar</param>
+            <returns>Retorna un tipo de cabaña que contiene en su nombre el parametro ingresado</returns>
+            <response code="200">Retorna un tipo de cabaña que contiene en su nombre el parametro ingresado</response>
+            <response code="400">Solicitud incorrecta</response>
+            <response code="404">El objeto buscado no se encuentra</response>
+            <response code="401">No esta autorizado para ver este contenido</response>
+        </member>
+        <member name="M:Hotel.WebAPI.Controllers.TipoCabaniasController.DeleteTipoCabanias(System.String)">
+            <summary>
+            Dar de baja un tipo de cabaña
+            </summary>
+            /// <param name="nombre">Texto que contiene el nombre del tipo de la cabaña a eliminar</param>
+            <returns>Retorna el listado de todos los tipos de cabañas al darse de alta exitosamente un tipo de cabaña</returns>
+            <response code="204">Retorna que se borro el tipo de cabaña</response>
+            <response code="400">Solicitud incorrecta</response>
+            <response code="404">El objeto buscado no se encuentra</response>
+            <response code="401">No esta autorizado para ver este contenido</response>
+        </member>
+    </members>
+</doc>

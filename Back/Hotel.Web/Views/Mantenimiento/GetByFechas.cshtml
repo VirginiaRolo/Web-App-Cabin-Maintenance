@@ -1,0 +1,67 @@
+﻿@model IEnumerable<Hotel.LogicaNegocio.Entidades.Mantenimiento>
+
+@{
+    ViewData["Title"] = "GetByFechas";
+}
+
+<h1>Buscar mantenimientos realizados entre dos fechas a una cabaña</h1>
+
+<form method="post">
+    <input type="datetime-local" name="fecha1" placeholder="Ingrese una primera fecha">
+    <input type="datetime-local" name="fecha2" placeholder="Ingrese una segunda fecha">
+    <input type="submit" value="Buscar" />
+</form>
+
+@if (Model != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Nombre de la cabaña
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Fecha)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Descripcion)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Costo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NombreFuncionario)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Cabania.Nombre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Fecha)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Descripcion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Costo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NombreFuncionario)
+                    </td>
+                    <td>
+                        @*  <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>*@
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+<span>@ViewBag.Message</span>

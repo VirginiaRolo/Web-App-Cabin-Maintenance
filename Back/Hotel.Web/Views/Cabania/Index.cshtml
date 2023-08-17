@@ -1,0 +1,107 @@
+﻿@model IEnumerable<Hotel.LogicaNegocio.Entidades.Cabania>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Listar todas las cabañas</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+@if (Model != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                @*   <th>
+            @Html.DisplayNameFor(model => model.Id)
+            </th>*@
+                <th>
+                    @Html.DisplayNameFor(model => model.NumeroHabitacion)
+                </th>
+                <th>
+                    Tipo de Cabaña
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Tipo.Costo.Valor)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nombre)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Descripcion)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TieneJacuzzi)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.HabilitadaReservas)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CantMaxPersonas)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Foto)
+                </th>
+                @*  <th>
+            Acciones
+            </th>*@
+                <th>
+                    Mantenimientos
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NumeroHabitacion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Tipo.Nombre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Tipo.Costo.Valor)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nombre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Descripcion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TieneJacuzzi)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.HabilitadaReservas)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CantMaxPersonas)
+                    </td>
+                    <td>
+                        @* @Html.DisplayFor(modelItem => item.Foto)*@
+                        <img width="100%" class="img-thumbnail" src="~/imgs/Cabanias/@item.Foto" />
+                    </td>
+                    @*   <td>
+            <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+            <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+            <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>*@
+                    <td>
+                        @*<a asp-controller="Mantenimiento" asp-action="Create" asp-route-id="@item.Id">Registrar nuevo</a> |
+                <a asp-controller="Mantenimiento" asp-action="GetByIdCabania" asp-route-id="@item.Id">Ver todos</a>*@
+
+                        @Html.ActionLink("Registrar nuevo", "Create", "Mantenimiento", new { idCabania = item.NumeroHabitacion})
+                        @Html.ActionLink("Ver todos", "GetByIdCabania", "Mantenimiento", new { idCabania = item.NumeroHabitacion})
+                        @Html.ActionLink("Buscar entre 2 fechas", "GetByFechas", "Mantenimiento", new { idCabania = item.NumeroHabitacion})
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+<span>@ViewBag.Message</span>

@@ -1,0 +1,121 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Microsoft.EntityFrameworkCore.Abstractions/7.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Hotel.LogicaNegocio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Abstractions": "7.0.5"
+        },
+        "compile": {
+          "bin/placeholder/Hotel.LogicaNegocio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Hotel.LogicaNegocio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.EntityFrameworkCore.Abstractions/7.0.5": {
+      "sha512": "iwQso+hFRsEWjhH2WsEQj1D2QE5BlEXiXEt6A3SlYTPRPdZsyTNDeDDEdtxL+H/UJPQgQYY+9SMMRcEiXBmCAA==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.abstractions/7.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
+        "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.xml",
+        "microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",
+        "microsoft.entityframeworkcore.abstractions.nuspec"
+      ]
+    },
+    "Hotel.LogicaNegocio/1.0.0": {
+      "type": "project",
+      "path": "../Hotel.LogicaNegocio/Hotel.LogicaNegocio.csproj",
+      "msbuildProject": "../Hotel.LogicaNegocio/Hotel.LogicaNegocio.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Hotel.LogicaNegocio >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Snowly\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\DTOs\\DTOs.csproj",
+      "projectName": "DTOs",
+      "projectPath": "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\DTOs\\DTOs.csproj",
+      "packagesPath": "C:\\Users\\Snowly\\.nuget\\packages\\",
+      "outputPath": "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\DTOs\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Snowly\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\Hotel.LogicaNegocio\\Hotel.LogicaNegocio.csproj": {
+              "projectPath": "F:\\Documents\\Documentos\\Proyectos Visual Studio\\Obligatorio02_P3\\Back\\Hotel.LogicaNegocio\\Hotel.LogicaNegocio.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

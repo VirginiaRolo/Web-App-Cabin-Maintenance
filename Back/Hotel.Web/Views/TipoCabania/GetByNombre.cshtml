@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Hotel.LogicaNegocio.Entidades.TipoCabania>
+
+@{
+    ViewData["Title"] = "GetByNombre";
+}
+
+<h1>Buscar Tipo de Cabaña por nombre</h1>
+
+<form method="post">
+    <input type="text" name="nombre" placeholder="Ingrese el nombre">
+
+    <input type="submit" value="Buscar" />
+</form>
+
+@if (Model != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nombre)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Descripcion.Valor)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Costo.Valor)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nombre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Descripcion.Valor)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Costo.Valor)
+                    </td>
+                    <td>
+                        @*<a asp-action="Edit" asp-route-id="@item.Nombre">Edit</a> |*@
+                        @Html.ActionLink("Edit", "Edit", "TipoCabania", new { nombre = item.Nombre})
+                        @* <a asp-action="Details" asp-route-id="@item.Nombre">Details</a> |*@
+                        @*<a asp-action="Delete" asp-route-id="@item.Nombre">Delete</a>*@
+                        @Html.ActionLink("Delete", "Delete", "TipoCabania", new { nombre = item.Nombre})
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+<span>@ViewBag.Message</span>

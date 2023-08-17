@@ -1,0 +1,40 @@
+﻿@model Hotel.LogicaNegocio.Entidades.TipoCabania
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Borrar un tipo de cabaña</h1>
+
+<h3>¿Estás seguro que desea borrar el tipo decabaña?</h3>
+<div>
+    <h4>TipoCabania</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Nombre)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Descripcion.Valor)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Descripcion.Valor)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Costo.Valor)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Costo.Valor)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Nombre" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+    <span>@ViewBag.Message</span>
+</div>

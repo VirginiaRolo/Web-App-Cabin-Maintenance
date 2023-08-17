@@ -1,0 +1,42 @@
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Hotel.LogicaNegocio\bin\Debug\net7.0\Hotel.LogicaNegocio.deps.json
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Hotel.LogicaNegocio\bin\Debug\net7.0\Hotel.LogicaNegocio.runtimeconfig.json
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Hotel.LogicaNegocio\bin\Debug\net7.0\Hotel.LogicaNegocio.dll
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Hotel.LogicaNegocio\bin\Debug\net7.0\Hotel.LogicaNegocio.pdb
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Hotel.LogicaNegocio\obj\Debug\net7.0\Hotel.LogicaNegocio.csproj.AssemblyReference.cache
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Hotel.LogicaNegocio\obj\Debug\net7.0\Hotel.LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Hotel.LogicaNegocio\obj\Debug\net7.0\Hotel.LogicaNegocio.AssemblyInfoInputs.cache
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Hotel.LogicaNegocio\obj\Debug\net7.0\Hotel.LogicaNegocio.AssemblyInfo.cs
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Hotel.LogicaNegocio\obj\Debug\net7.0\Hotel.LogicaNegocio.csproj.CoreCompileInputs.cache
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Hotel.LogicaNegocio\obj\Debug\net7.0\Hotel.LogicaNegocio.dll
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Hotel.LogicaNegocio\obj\Debug\net7.0\refint\Hotel.LogicaNegocio.dll
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Hotel.LogicaNegocio\obj\Debug\net7.0\Hotel.LogicaNegocio.pdb
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Hotel.LogicaNegocio\obj\Debug\net7.0\Hotel.LogicaNegocio.genruntimeconfig.cache
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Hotel.LogicaNegocio\obj\Debug\net7.0\ref\Hotel.LogicaNegocio.dll
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Back\Hotel.LogicaNegocio\bin\Debug\net7.0\Hotel.LogicaNegocio.deps.json
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Back\Hotel.LogicaNegocio\bin\Debug\net7.0\Hotel.LogicaNegocio.runtimeconfig.json
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Back\Hotel.LogicaNegocio\bin\Debug\net7.0\Hotel.LogicaNegocio.dll
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Back\Hotel.LogicaNegocio\bin\Debug\net7.0\Hotel.LogicaNegocio.pdb
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Back\Hotel.LogicaNegocio\obj\Debug\net7.0\Hotel.LogicaNegocio.csproj.AssemblyReference.cache
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Back\Hotel.LogicaNegocio\obj\Debug\net7.0\Hotel.LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Back\Hotel.LogicaNegocio\obj\Debug\net7.0\Hotel.LogicaNegocio.AssemblyInfoInputs.cache
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Back\Hotel.LogicaNegocio\obj\Debug\net7.0\Hotel.LogicaNegocio.AssemblyInfo.cs
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Back\Hotel.LogicaNegocio\obj\Debug\net7.0\Hotel.LogicaNegocio.csproj.CoreCompileInputs.cache
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Back\Hotel.LogicaNegocio\obj\Debug\net7.0\Hotel.LogicaNegocio.dll
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Back\Hotel.LogicaNegocio\obj\Debug\net7.0\refint\Hotel.LogicaNegocio.dll
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Back\Hotel.LogicaNegocio\obj\Debug\net7.0\Hotel.LogicaNegocio.pdb
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Back\Hotel.LogicaNegocio\obj\Debug\net7.0\Hotel.LogicaNegocio.genruntimeconfig.cache
+F:\Documents\Documentos\Proyectos Visual Studio\Obligatorio02_P3\Back\Hotel.LogicaNegocio\obj\Debug\net7.0\ref\Hotel.LogicaNegocio.dll
+C:\Users\black\Downloads\Obligatorio02_P3_190623_2123\Obligatorio02_P3\Back\Hotel.LogicaNegocio\bin\Debug\net7.0\Hotel.LogicaNegocio.deps.json
+C:\Users\black\Downloads\Obligatorio02_P3_190623_2123\Obligatorio02_P3\Back\Hotel.LogicaNegocio\bin\Debug\net7.0\Hotel.LogicaNegocio.runtimeconfig.json
+C:\Users\black\Downloads\Obligatorio02_P3_190623_2123\Obligatorio02_P3\Back\Hotel.LogicaNegocio\bin\Debug\net7.0\Hotel.LogicaNegocio.dll
+C:\Users\black\Downloads\Obligatorio02_P3_190623_2123\Obligatorio02_P3\Back\Hotel.LogicaNegocio\bin\Debug\net7.0\Hotel.LogicaNegocio.pdb
+C:\Users\black\Downloads\Obligatorio02_P3_190623_2123\Obligatorio02_P3\Back\Hotel.LogicaNegocio\obj\Debug\net7.0\Hotel.LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\black\Downloads\Obligatorio02_P3_190623_2123\Obligatorio02_P3\Back\Hotel.LogicaNegocio\obj\Debug\net7.0\Hotel.LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\black\Downloads\Obligatorio02_P3_190623_2123\Obligatorio02_P3\Back\Hotel.LogicaNegocio\obj\Debug\net7.0\Hotel.LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\black\Downloads\Obligatorio02_P3_190623_2123\Obligatorio02_P3\Back\Hotel.LogicaNegocio\obj\Debug\net7.0\Hotel.LogicaNegocio.AssemblyInfo.cs
+C:\Users\black\Downloads\Obligatorio02_P3_190623_2123\Obligatorio02_P3\Back\Hotel.LogicaNegocio\obj\Debug\net7.0\Hotel.LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\black\Downloads\Obligatorio02_P3_190623_2123\Obligatorio02_P3\Back\Hotel.LogicaNegocio\obj\Debug\net7.0\Hotel.LogicaNegocio.dll
+C:\Users\black\Downloads\Obligatorio02_P3_190623_2123\Obligatorio02_P3\Back\Hotel.LogicaNegocio\obj\Debug\net7.0\refint\Hotel.LogicaNegocio.dll
+C:\Users\black\Downloads\Obligatorio02_P3_190623_2123\Obligatorio02_P3\Back\Hotel.LogicaNegocio\obj\Debug\net7.0\Hotel.LogicaNegocio.pdb
+C:\Users\black\Downloads\Obligatorio02_P3_190623_2123\Obligatorio02_P3\Back\Hotel.LogicaNegocio\obj\Debug\net7.0\Hotel.LogicaNegocio.genruntimeconfig.cache
+C:\Users\black\Downloads\Obligatorio02_P3_190623_2123\Obligatorio02_P3\Back\Hotel.LogicaNegocio\obj\Debug\net7.0\ref\Hotel.LogicaNegocio.dll
